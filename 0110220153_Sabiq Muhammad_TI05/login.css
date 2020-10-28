@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.active ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 50px 5px 50px;
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 1px solid grey;
+  top: 0;
+  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.active ul li {
+  float: left;
+}
+  
+.active ul li a {
+  display: block;
+  color: black;
+  padding: 10px 10px 8px 10px;
+  text-decoration: none;
+   
+}
+.active ul li a:hover:not(.active) {
+  background-color:#b2bec3;
+}
+.active ul li img {
+  height: 50px;
+  width: 150px;
+}
+.wraper {
+  margin: 10rem 31rem;
+  width: 20%;
+    
+}
+input {
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+fieldset {
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px
+}
+body {
+  background-image: url(gambar/pexels-vova-krasilnikov-2796145.jpg);
+  background-size: 100%;
+}
+.tombolsubmit {
+  font-weight: 500;
+  padding: 5px 104px;
+  border: none;
+  background-color:#58B19F;
+}
+.tombolsubmit:hover {
+  background-color:  #00cec9 ;
+}
+label {
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input {
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
