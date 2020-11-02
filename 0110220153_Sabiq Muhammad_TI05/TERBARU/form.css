@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Segio;
+    src: url(SegioPrint.ttf);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:white;
+    background-size: 100%;
+}
+.wraper {
+    margin: 1rem auto;
+    width: 30%;	
+}
+
+.wraper p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+fieldset {
+
+    padding: 5px 2rem;
+    text-align: center;
+    background-color:white;
+    border-radius: 5px
+}
+label {
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input {
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+textarea {
+    font-size: 15px;
+}
+.tombolsubmit {
+    font-weight: 500;
+    padding: 5px 122px;
+    border: none;
+    background-color: #58B19F;
+}
+.tombolsubmit:hover {
+    background-color:  #00cec9 ;
+}
+.countryselect {
+    padding: 5px 97px; 
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.name {
+    padding: 5px 65px;
+}
+.email {
+    padding: 5px 65px;
+}
+.password {
+    padding: 5px 65px;
+}
+.phone-number {
+    padding: 5px 65px;
+}
+.address {
+    padding: 5px 65px;
+}
+.country {
+    padding: 5px 65px;
+}
+.date {
+    padding: 5px 65px;
+}
+.date input {
+    padding: 5px 62px;
+}
+.gender {
+    padding: 5px 100px;
+}
+.button {
+    padding: 5px 63px;
+}
+.choose {
+    padding: 5px;
+}
+.back {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 130px;
+    background-color: #f6e58d;
+}
+.back:hover {
+    background-color: #ffbe76;
+}
+.Bback {
+    padding: 5px 63px;
+}
+.Cpassword {
+    padding: 5px 65px;
+}
+.Logo {
+    color: black;
+    text-decoration: none;
+    font-family: Segio; 
+    font-size: 30px;
+}
+
+

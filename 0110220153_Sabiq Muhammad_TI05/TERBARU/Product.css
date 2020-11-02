@@ -1,0 +1,177 @@
+
+@font-face {
+    font-family: Bahn;
+    src: url(BAHNSCHRIFT.TTF);
+    font-family: CASTELAR;
+    src: url(CASTELAR.ttf);
+    font-family: HELVETICA;
+    src: url(Helvetica.ttf);
+    font-family: Breathing;
+    src: url(Breathing.ttf);
+    font-family: Willson;
+    src: url(WILLSON.ttf);
+}
+html {scroll-behavior: smooth;}
+body {
+  margin: 0;
+  
+ 
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.active ul {
+    list-style-type: none;
+    position: fixed;
+    margin: 0;
+    padding: 10px 50px 5px 50px;
+    overflow: hidden;
+    background-color:white;
+    border-bottom: 2px solid grey;
+    top: 0;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+  
+.active li a {
+    display: block;
+    color: black;
+    padding: 10px 10px 8px 10px;
+    text-decoration: none;
+   
+  }
+.active li a:hover:not(.active) {
+    background-color:#b2bec3;
+  }
+.active li img {
+  height: 50px;
+  width: 150px;
+}
+.banner-1 {
+ 
+  background-color:#f1f2f6;
+  display: block;
+}
+.banner-1 img {
+  margin: 0;
+  width: 300px;
+  height: 300px;
+  
+}
+.list {
+  margin: 50px 30px;
+  font-family: Arial;
+  
+}
+.gitar {
+  
+  background-color:#f1f2f6;
+  border: 1px solid #7f8c8d;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  margin: 50px;
+  padding-bottom: 10px;
+}
+.gitar .button {
+  color: white;
+  background-color: rgb(26, 188, 156);
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 5px 100px;
+}
+.list .button:hover {
+  background-color: #00cec9 ;
+}
+.cello {
+  background-color: #f1f2f6;
+  border: 1px solid #7f8c8d;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  margin: 50px;
+  padding-bottom: 10px;
+}
+.cello .button {
+  color: white;
+  background-color: rgb(26, 188, 156);
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 5px 100px;
+}
+.drum {
+  background-color: #f1f2f6;
+  border: 1px solid #7f8c8d;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  margin: 50px;
+  padding-bottom: 10px;
+}
+.drum .button {
+  color: white;
+  background-color: rgb(26, 188, 156);
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 5px 100px;
+}
+.violin {
+  background-color: #f1f2f6;
+  border: 1px solid #7f8c8d;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  margin: 50px;
+  padding-bottom: 10px;
+}
+.violin .button {
+  color: white;
+  background-color: rgb(26, 188, 156);
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 5px 100px;
+}
+.piano {
+  background-color:#f1f2f6;
+  border: 1px solid #7f8c8d;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  margin: 50px;
+  padding-bottom: 10px;
+}
+.piano .button {
+  color: white;
+  background-color: rgb(26, 188, 156);
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 5px 100px;
+}
+.saxophone {
+  background-color: #f1f2f6;
+  border: 1px solid #7f8c8d;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  margin: 50px;
+  padding-bottom: 10px;
+}
+.saxophone .button {
+  color: white;
+  background-color: rgb(26, 188, 156);
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 5px 100px;
+}
+  
+

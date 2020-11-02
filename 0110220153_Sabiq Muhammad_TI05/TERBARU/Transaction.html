@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction</title>
+    <link rel="icon" href="gambar/logo.png">
+    <link rel="stylesheet" href="Transaction.css">
+</head>
+<body>
+    <nav class="active"> 
+        <ul>
+            <li style="float: left;"><a href="index.html"><img src="gambar/Sabiqcoustic2.png" alt="Sabiqoustic"></a></li>
+            <li style="float: right;"><a href="Login.html" style="font-size: 15px; padding: 23px 30px 23px 30px; color:#58B19F;">LOGIN!</a></li>
+            <li style="float: right;"><a href="about.html" style="font-size: 15px; padding: 23px 30px 23px 30px;">ABOUT</a></li>  
+            <li style="float: right;"><a href="Product.html" style="font-size: 15px; padding: 23px 30px 23px 30px;">PRODUCT</a></li>
+            <li style="float: right;"><a href="index.html" style="font-size: 15px; padding: 23px 30px 23px 30px;">HOME</a></li>
+        </ul>
+    </nav>   
+        <div class="wraper">
+            <form action="#">
+                <fieldset>
+                    <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #58B19F;"><b>TRANSACTION</b></p>                    
+                    <div class="small">
+                        <div class="amounts">
+                            <label for="Amounts">Amounts</label>
+                            <input type="number" max="1000" min="1" value="1" id="Amounts">
+                        </div>
+                        <div class="Dservice">
+                            <label for="Dservice" >Delivery Service :</label>
+                            <select name="Dservice" id="Dservice" class="service">
+                                <option value="FEDEX">FEDEX</option>
+                                <option value="DAHL">DAHL</option>
+                                <option value="SNCF">SNCF</option>
+                            </select>     
+                        </div>
+                        <div class="payments">
+                            <label for="Payments">Payments</label>
+                            <select name="Payments" id="Payments" class="choose">
+                                <option value="Paypal">Paypal</option>
+                                <option value="BCA">BCA</option>
+                                <option value="Mandiri">Mandiri</option>
+                                <option value="Bitcoin">Bitcoin</option>
+                            </select>                               
+                        </div>
+                    </div>                                                              
+                    <div class="address">
+                        <label for="AddressBuyer">Address Buyer :</label>
+                        <textarea name="AddressBuyer" id="AddressBuyer" cols="50" rows="2"></textarea>     
+                    </div>
+                   <div class="message">
+                    <label for="Message">Message to Seller</label>
+                    <textarea name="Message" id="Message" cols="50" rows="2"></textarea>
+                   </div>
+                    <div class="button">
+                        <input type="submit" name="submit" id="submit" class="submitB">    
+                    </div>                                           
+                                   
+                </fieldset>
+            </form>
+        </div>
+    <footer>
+        <div class="banner 1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">                     
+                            <img src="gambar/paypal.png" alt="paypal">
+                            <img src="gambar/mandiri.jpg" alt="mandiri">
+                            <img src="gambar/bca.png" alt="BCA">
+                            <img src="gambar/bc.png" alt="Bitcoin">
+                            <img src="gambar/fedex.png" alt="FEDEX">
+                            <img src="gambar/sncf.png" alt="SNCF">
+                            <img src="gambar/dhl.png" alt="DHL">                                       
+                    </div>  
+                </div>                
+            </div>
+        </div>               
+    </footer>      
+</body>
+</html>

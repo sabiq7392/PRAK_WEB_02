@@ -1,0 +1,131 @@
+@font-face {
+  font-family: Bahn;
+  src: url(BAHNSCHRIFT.TTF);
+  font-family: CASTELAR;
+  src: url(CASTELAR.ttf);
+  font-family: HELVETICA;
+  src: url(Helvetica.ttf);
+  font-family: Breathing;
+  src: url(Breathing.ttf);
+  font-family: Willson;
+  src: url(WILLSON.ttf);
+}
+html {scroll-behavior: smooth;}
+body {
+  margin:0;
+  background-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.active ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 50px 5px 50px;
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 1px solid grey;
+  top: 0;
+  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+.active ul li {
+  float: left;
+  }
+  
+.active ul li a {
+  display: block;
+  color: black;
+  padding: 10px 10px 8px 10px;
+  text-decoration: none;
+   
+  }
+.active ul li a:hover:not(.active) {
+  background-color:#b2bec3;
+  }
+.active ul li img {
+  height: 50px;
+  width: 150px;
+}
+.wraper {
+  margin: 20px auto;
+  width: 50%;
+  
+}
+fieldset { 
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color:#ffffff;
+  border-radius: 5px;
+}
+body {
+  background-size: 100%;
+}
+input {
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float: left;
+}
+textarea {
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float: left;
+}
+label {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+}
+.submitB {
+  border: none;
+  background-color: #58B19F;
+  padding: 5px 50px;
+}
+.submitB:hover {
+  background-color:  #00cec9;
+}
+footer {
+  text-align: center;
+  padding-top: 60px;
+  height: 200px;
+  width: 100%;
+  background-color: white;
+}
+footer img {
+  height: 70px;
+  width: 70px;
+}
+.choose {
+  display: block; 
+  padding: 3px 30px;
+}
+.amounts {
+  padding: 10px 0;
+}
+.Dservice {
+  padding: 15px 0;
+}
+.service {
+  display: block;
+  padding: 3px 30px;
+}
+.address {
+  padding: 10px 0;
+}
+.message {
+  padding: 40px 0;
+}
+.button {
+  padding: 20px 0;
+}
+.small {
+  display: inline;
+}
+fieldset ul li {
+  display: inline-block;
+}

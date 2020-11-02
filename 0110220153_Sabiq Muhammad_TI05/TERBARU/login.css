@@ -1,0 +1,96 @@
+@font-face {
+  font-family: Segio;
+  src: url(SegioPrint.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wraper {
+  margin: 10rem 31rem;
+  width: 20%;
+    
+}
+input {
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+fieldset {
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px
+}
+body {
+  background-color: white;
+  background-size: 100%;
+}
+.tombolsubmit {
+  font-weight: 500;
+  padding: 5px 104px;
+  border: none;
+  background-color:#58B19F;
+}
+.tombolsubmit:hover {
+  background-color:  #00cec9 ;
+}
+label {
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input {
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Logo {
+  color: black;
+  text-decoration: none;
+  font-family: Segio; 
+  font-size: 30px;
+}
+.Email {
+  padding: 10px;
+}
+.password {
+  padding: 10px;
+}
+.button {
+  padding: 10px;
+}
+p {
+  padding-top: 20px;
+}
+.Remember {
+  padding: 0px 10px;
+  text-align: left;
+}
+.forget {
+  height: 70px;
+  padding: 0px 10px;
+  margin-top: 20px;
+}
+.cancel {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  float: left;
+  padding: 1rem;
+  margin: 20px 0px;
+  background-color:#eb4d4b;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+.cancel:hover {
+  background-color: #ff6348;
+}
+.forgetpass {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  float: right;
+  text-align: right;
+  font-weight: 500;
+}
