@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link rel="icon" href="gambar/logo.png">
+	<link rel="stylesheet" href="form.css">
+	
+</head>
+<body>
+	<div class="wraper">
+		<form>
+			<center><a href="index.html" class="Logo">Sabiqoustic</a></center>
+			<p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #58B19F;"><b>REGISTRATION</b></p>
+			<div class="name">				
+				<input type="text" name="name" id="name" size="34" placeholder="Username">
+			</div>
+			<div class="email">				
+				<input type="email" name="email" id="email" size="34" placeholder="Email">
+			</div>
+			<div class="password">				
+				<input type="password" name="Password" id="Password" size="34" placeholder="Password">
+			</div>
+			<div class="Cpassword">				
+				<input type="password" name="CPassword" id="CPassword" size="34" placeholder="Confirm Password">
+			</div>
+			<div class="phone-number">				
+				<input type="text" name="phone-number" id="phone-number" size="34" placeholder="Phone Number">
+			</div>
+			<div class="address">
+				<label for="Address">Address</label><br>
+				<textarea name="Address" id="Address" cols="33" rows="3"></textarea>
+			</div>
+			<div class="country">
+				<label for="country">Country</label><br>
+				<select name="country" id="country" class="countryselect">
+					<option value=Indoneisa>Indonesia</option>
+					<option value="Malaysia">Malaysia</option>
+					<option value="Thailand">Thailand</option>
+					<option value="Singapura">Singapura</option>
+				</select><br>
+			</div>
+			<div class="date">
+				<label for="DateBirth">Date Birth</label><br>
+				<input type="date" name="DateBirth" id="DateBirth" size="34">
+			</div>
+			<div class="gender">
+				<div class="choose">
+					<input type="radio" name="Male" id="Male" value="M" size="100">Male
+					<input type="radio" name="Female" id="Female" value="F" size="100">Female
+					<input type="radio" name="Others" id="Others" value="O" size="100">Others<br>
+				</div>
+				
+			</div>
+			<div class="button">
+				<input type="submit" name="submit" id="submit" class="tombolsubmit">
+			</div>
+			<div class="Bback">
+				<a href="index.html" class="back">Back</a>
+			</div>
+
+		
+
+		
+		</form>
+	</div>
+</body>

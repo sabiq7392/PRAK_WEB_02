@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Bahn;
+    src: url(BAHNSCHRIFT.TTF);
+    font-family: CASTELAR;
+    src: url(CASTELAR.ttf);
+    font-family: HELVETICA;
+    src: url(Helvetica.ttf);
+    font-family: Breathing;
+    src: url(Breathing.ttf);
+    font-family: Willson;
+    src: url(WILLSON.ttf);
+}
+html {scroll-behavior: smooth;}
+body {margin:0;}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.active ul {
+    list-style-type: none;
+    margin: 0;
+    position: fixed;
+    padding: 10px 50px 5px 50px;
+    overflow: hidden;
+    background-color: white;
+    border-bottom: 2px solid #58B19F;
+    top: 0;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+.active ul li {
+    float: left;
+  }
+  
+.active ul li a {
+    display: block;
+    color: black;
+    padding: 10px 10px 8px 10px;
+    text-decoration: none;
+   
+  }
+.active ul li a:hover:not(.active) {
+    background-color:#b2bec3;
+  }
+.active ul li img {
+  height: 50px;
+  width: 150px;
+}
+iframe {
+  border: 0;
+  margin-top: 87px;
+  width: 100%;
+}
+.footer {
+  margin: 10px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.address {
+  padding: 10px;
+}
+.contact {
+  padding: 10px;
+}
+.email {
+  padding: 10px;
+}
+.partners {
+  padding: 10px;
+}
+.sosmed {
+  padding: 10px;
+}
+.sosmed img {
+  height: 50px;
+  width: 50px;
+}
+.sponsor {
+  text-align: center;
+  padding: 10px;
+}
+.sponsor img {
+  height: 70px;
+  width: 70px;
+}
+.description {
+  padding: 10px;
+  
+}
+
+
+
+
+
